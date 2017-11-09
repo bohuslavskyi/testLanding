@@ -1,0 +1,310 @@
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+
+}
+
+body input:required:valid,
+body textarea:required:valid {
+
+}
+
+html.js .loader {
+    background: none repeat scroll 0 0 #ffffff;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+html.js .loader_inner {
+    background-image: url("../img/preloader.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.6;
+    font-family: "Roboto Slab Thin", sans-serif;
+    overflow-x: hidden;
+}
+
+.fFamilyLight {
+    font-family: "Roboto Slab Light", sans-serif;
+}
+
+.fFamilyRegular {
+    font-family: "Roboto Slab Regular", sans-serif;
+}
+
+.fFamilyBold {
+    font-family: "Roboto Slab Bold", sans-serif;
+}
+
+.italic{
+    font-style: italic;
+}
+.space{
+    height: 10px
+}
+
+.bigSpace{
+    height: 50px
+}
+.mainInfoText {
+    font-size: 24px;;
+}
+
+.hidden {
+    display: none;
+}
+
+.title40 {
+    font-size: 40px;
+    color: #061d34;;
+}
+
+.orange {
+    color: #ffa810;
+}
+.blue{
+    color: #061d34;
+}
+
+header {
+    background-image: url(../images/header.jpg);
+}
+
+.logo2 img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.titleBitcBlock {
+    color: white;
+    padding: 20px 15px;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.footForm {
+    color: white;
+    padding: 16px 15px;
+    background: rgba(6, 29, 52, 0.55);
+}
+
+.titleSize {
+    font-size: 42px;
+}
+
+.subTitleSize {
+    font-size: 30px;
+}
+
+.formHeader {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+p {
+    line-height: 1.2;
+}
+
+form input {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 37px;
+    background-color: rgba(229, 229, 229, 0.82);
+    border: none;
+    color: black;
+    font-family: "Roboto Slab Bold", sans-serif;
+}
+
+label {
+    font-family: "RobotoLight", sans-serif;
+}
+
+.form-check .form-check-input, termsConditions {
+    float: left;
+    margin-right: 7px;
+    font-family: "RobotoThin", sans-serif;
+}
+
+.form-check-label span a {
+    color: white;
+}
+
+.form-check-label {
+    width: 100%;
+}
+
+.btnTrade {
+    background-color: #ffa810;
+    color: black;
+    width: 100%;
+    min-height: 60px;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.btnTrade:hover {
+    background-color: #4ad424;
+}
+
+.btnTrade:active, .btnTrade.active {
+    background-color: #3cab1e;
+}
+
+.scrolDownBtn {
+    padding: 40px 0 27px 0;
+}
+
+ul li {
+    font-family: "Roboto Slab Regular", sans-serif;
+    list-style: none;
+}
+.fa{
+    padding-right: 8px;
+    font-size: 10px;
+    position: relative;
+    top: -2px;
+}
+.fa-circle{
+    padding-right: 15px;
+    top: -5px;
+}
+ul{
+    padding-left: 0;
+}
+
+
+.investInBitcoin {
+    margin-top: 55px;
+    margin-bottom: 0px;
+}
+
+/*.theBestAnalysis {*/
+    /*background-image: url("../images/part-3_bg.jpg");*/
+    /*background-size: 100% 110%;*/
+
+/*}*/
+
+.bgImg{
+    background-image: url("../images/part-3_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.theBestAnalysisBlock{
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 78px 55px;
+    margin-top: 147px;
+    margin-bottom: 100px;
+    position: relative;
+    top: -75px;
+}
+
+.TradeWithImg{
+    width: 60%;
+}
+
+.panel-default>.panel-heading{
+    background-color: #c5ecfd;
+    border: 1px solid #09bac6;
+}
+
+.discoverBitcoinNow{
+    background-color: #f1fdf6;
+}
+
+.in{
+    background-color: #f1fdf6;
+}
+
+.fade.in {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.panel-default {
+    border: none;
+}
+
+footer{
+    color: white;
+    font-size: 10px;
+    background-color: #061d34;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.alignCenter{
+    text-align: center;
+}
+
+
+.formWrap{
+    position: relative;
+}
+.input-icon {
+    font-size: 25px;
+    position: absolute;
+    right: 0px;
+    top: calc(62% - 0.5em);
+}
+
+.fade.in {
+    background-color: rgba(0, 0, 0, 0.71);
+}
+
+
+.fa-check-circle{
+    color: rgba(0, 128, 0, 0.50);
+}
+
+.fa-times-circle{
+    color: rgba(255, 0, 0, 0.50);
+}
+
+.termsConditions span a{
+    cursor: pointer;
+    text-decoration: underline white;
+}
+
+.trade{
+    position: relative;
+    top: -50px;
+}

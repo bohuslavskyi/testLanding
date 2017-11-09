@@ -1,0 +1,155 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 2992px) {
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.TradeWithImg{
+		display: none;
+	}
+
+	.footFormBlock{
+		margin-top: 20px;
+	}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+
+
+	.bgImg{
+		margin-bottom: -55px;
+		background-image: none;
+	}
+
+
+
+	.trade{
+		top: -80px;
+	}
+
+	.theBestAnalysisBlock{
+		padding-left: 30px;
+		margin-bottom: 30px;
+
+	}
+	.paddingLeftNone{
+		padding-left: 15px;
+	}
+
+	#slide{
+		padding-left: 30px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.theBestAnalysisBlock {
+		margin-top: 115px;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 380px) {
+	.btnTrade{
+		font-size: 24px;
+	}
+
+	.titleSize{
+		font-size: 39px;
+	}
+	.mainInfoText{
+		font-size: 22px;
+	}
+	.subTitleSize {
+		font-size: 28px;
+	}
+	.theBestAnalysisBlock {
+		margin-top: 100px;
+	}
+
+	.part-2Img{
+		width: 100%;
+	}
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width : 768px) {
+
+	.part-2Img{
+		width: 100%;
+	}
+
+	/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.logo2{
+		width: 55%;
+	}
+	.nextBitcBlock{
+		width: 55%;
+	}
+	.footFormBlock{
+		width: 45%;
+		padding-right: 0;;
+	}
+
+
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.logo2{
+		width: 50%;
+	}
+	.nextBitcBlock{
+		width: 50%;
+	}
+	.footFormBlock{
+		width: 40%;
+	}
+}
+}
